@@ -20,4 +20,9 @@ class Song
     @@count
   end 
   
+  def self.genre
+    @@genres.unique! 
+  end 
+  
+  
 end 
